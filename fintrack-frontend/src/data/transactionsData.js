@@ -1,0 +1,38 @@
+export const transactionsData = [
+  {
+    id: 1,
+    date: "2026-06-01",
+    account: "HDFC Savings",
+    category: "Salary",
+    note: "Monthly Salary",
+    type: "Income",
+    amount: 45000,
+  },
+  {
+    id: 2,
+    date: "2026-06-03",
+    account: "HDFC Savings",
+    category: "Food",
+    note: "Swiggy",
+    type: "Expense",
+    amount: 550,
+  },
+  {
+    id: 3,
+    date: "2026-06-04",
+    account: "ICICI Credit",
+    category: "Shopping",
+    note: "Amazon",
+    type: "Expense",
+    amount: 2400,
+  },
+  {
+    id: 4,
+    date: "2026-06-05",
+    account: "Paytm Wallet",
+    category: "Transfer",
+    note: "Wallet Top-up",
+    type: "Transfer",
+    amount: 1000,
+  },
+];
